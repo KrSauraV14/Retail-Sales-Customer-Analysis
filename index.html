@@ -1,179 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>Kumar Saurav | Data Analyst Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
     body {
-      font-family: Arial, Helvetica, sans-serif;
       margin: 0;
-      background-color: #f4f6f8;
-      color: #333;
-      line-height: 1.6;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #f8fafc;
+      color: #1f2933;
     }
 
     header {
-      background-color: #0f172a;
+      background: linear-gradient(135deg, #1e3a8a, #2563eb);
       color: white;
-      padding: 40px 20px;
+      padding: 60px 20px;
       text-align: center;
     }
 
     header h1 {
       margin: 0;
-      font-size: 36px;
+      font-size: 40px;
     }
 
     header p {
-      margin: 10px 0;
+      margin-top: 10px;
       font-size: 18px;
+      opacity: 0.95;
     }
 
     section {
-      max-width: 1000px;
+      max-width: 1100px;
       margin: auto;
-      padding: 40px 20px;
+      padding: 50px 20px;
     }
 
     h2 {
-      color: #0f172a;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 5px;
+      font-size: 28px;
+      margin-bottom: 25px;
+      border-left: 6px solid #2563eb;
+      padding-left: 12px;
+      color: #1e3a8a;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
     }
 
     .card {
       background: white;
-      padding: 20px;
-      border-radius: 8px;
-      margin-bottom: 20px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
     }
 
     ul {
-      padding-left: 20px;
+      padding-left: 18px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .highlight {
+      background: #eef2ff;
+      border-left: 5px solid #2563eb;
+      padding: 20px;
+      border-radius: 8px;
     }
 
     footer {
       background-color: #0f172a;
-      color: white;
+      color: #cbd5e1;
       text-align: center;
-      padding: 20px;
+      padding: 25px;
+      font-size: 14px;
     }
-  </style>
-</head>
 
-<body>
-
-<header>
-  <h1>Kumar Saurav</h1>
-  <p>Aspiring Data Analyst | Power BI | SQL | Excel Automation</p>
-  <p>Email: rks812002@gmail.com</p>
-</header>
-
-<section>
-  <h2>About Me</h2>
-  <p>
-    I am an aspiring Data Analyst with hands-on experience in Advanced Excel,
-    SQL-based analysis, Power BI dashboards, and Excel VBA automation.
-    I have completed four months of analytics training and a three-month internship
-    at Helicoid Point Technologies LLP.
-  </p>
-  <p>
-    I enjoy converting raw data into clear, actionable insights that help
-    businesses make better decisions.
-  </p>
-</section>
-
-<section>
-  <h2>Technical Skills</h2>
-
-  <div class="card">
-    <h3>Data & BI Tools</h3>
-    <ul>
-      <li>Power BI (DAX, KPI Cards, Slicers)</li>
-      <li>SQL Server</li>
-      <li>Advanced Excel</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h3>Excel & Automation</h3>
-    <ul>
-      <li>Power Query</li>
-      <li>Pivot Tables & Dashboards</li>
-      <li>VBA Macros & Excel Automation</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h3>SQL & Analytics</h3>
-    <ul>
-      <li>Joins, CTEs, Window Functions</li>
-      <li>Query Optimization</li>
-      <li>Exploratory Data Analysis (EDA)</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h3>AI Tools</h3>
-    <ul>
-      <li>ChatGPT for SQL Debugging</li>
-      <li>DAX Troubleshooting</li>
-      <li>Documentation Support</li>
-    </ul>
-  </div>
-</section>
-
-<section>
-  <h2>Internship Experience</h2>
-
-  <div class="card">
-    <h3>Data Analyst Intern – Helicoid Point Technologies LLP</h3>
-    <p><strong>Project:</strong> Flipkart E-Commerce Data Analysis</p>
-    <ul>
-      <li>Cleaned and prepared data using SQL and Excel Power Query</li>
-      <li>Built interactive Power BI dashboards</li>
-      <li>Automated Excel reports using VBA (30–40% productivity improvement)</li>
-      <li>Performed EDA to identify business insights</li>
-    </ul>
-  </div>
-</section>
-
-<section>
-  <h2>Projects</h2>
-
-  <div class="card">
-    <h3>HR Analytics Dashboard</h3>
-    <ul>
-      <li>Cleaned HR data using SQL joins</li>
-      <li>Built star-schema data model</li>
-      <li>Created dashboards for attrition and workforce analysis</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h3>Excel VBA Automation System</h3>
-    <ul>
-      <li>Automated data import and report creation</li>
-      <li>Reduced manual effort and errors</li>
-    </ul>
-  </div>
-</section>
-
-<section>
-  <h2>Career Objective</h2>
-  <p>
-    To start my career as a Data Analyst where I can apply my data analysis,
-    automation, and visualization skills to solve business problems and grow
-    as a data professional.
-  </p>
-</section>
-
-<footer>
-  <p>© 2025 Kumar Saurav | Data Analyst Portfolio</p>
-</footer>
-
-</body>
-</html>
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 22px;
+      background-color: white;
+      color: #1e3a8a;
+      border-r
